@@ -12,8 +12,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/projects', (req, res) => {
-    res.send(projects)
-    
+    res.json(projects)
 })
 
 app.listen(port, () => console.log(`Portfolio API running on port ${port}!`));
