@@ -15,6 +15,12 @@ app.get('/projects', (req, res) => {
     res.json(projects)
 })
 
+app.get('/projects/:project', (req, res) => {
+    const project = req.params
+    res.json(projectDetails[project])
+
+})
+
 app.listen(port, () => console.log(`Portfolio API running on port ${port}!`));
 
 module.exports = app;
