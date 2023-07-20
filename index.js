@@ -1,4 +1,4 @@
-import projects from "./database.js"
+import { projects } from "./database.js"
 
 const express = require('express');
 var cors = require("cors");
