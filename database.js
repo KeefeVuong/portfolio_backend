@@ -35,6 +35,12 @@ export const projects = [
         "language": "ReactJS",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxhcmYPn6BAm_9XSYl6JNljOl1dwQgj2Pjjw&usqp=CAU"
     },
+    {
+        "title": "Cheekyglo Tiktok Stats Dashboard",
+        "completed": false,
+        "language": "Django/ReactJS/MongoDB",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgupjo76ZdGBNOItW1lvDv-AjQu1t1UCHl_w&usqp=CAU"
+    }
 ]
 
 export const projectDetails = {
